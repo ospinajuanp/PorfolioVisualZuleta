@@ -61,7 +61,13 @@
         </section>
 
         <section id="container__contact" class="container__contact">
-
+            <form onclick="sendEmail()">
+                <input id="name" type="text" placeholder="Tu Nombre" required>
+                <input id="email" type="email" placeholder="Tu Correo" required>
+                <input id="phone" type="text" placeholder="Tu Telefono">
+                <textarea id="messaje" rows="4" placeholder="En que puedo ayudarte?"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
         
     </main>
