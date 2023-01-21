@@ -53,7 +53,7 @@ header{
     min-width: 30rem;
     max-width: 150rem;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,7 +62,7 @@ header{
 
     &-logo{
         min-width: 3rem;
-        max-width: 10rem;
+        max-width: 8rem;
         width: 20vw;
         padding: .8rem;
         
@@ -149,7 +149,7 @@ header{
 
     }
     .container__nav-navegation li a{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -194,6 +194,8 @@ header{
             border: .1rem solid $color-oscuro;
             outline: .2rem solid $color-claro;
             outline-offset: -10px;
+            border-radius: 1rem;
+            overflow: hidden;
         }
     }
 }
