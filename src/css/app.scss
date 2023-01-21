@@ -13,6 +13,9 @@ $color-primario:#3a7a8d;
 $color-secundario:#815936;
 $color-oscuro:#000;
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 html{
     font-size: 62.2%;

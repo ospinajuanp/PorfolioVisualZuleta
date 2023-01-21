@@ -6,6 +6,10 @@
     5. Otros
 */
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   font-size: 62.2%;
   font-family: "Roboto", sans-serif;
