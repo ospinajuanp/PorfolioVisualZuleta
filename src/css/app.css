@@ -26,4 +26,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+header {
+  background: transparent;
+}
+
 /*# sourceMappingURL=app.css.map */
