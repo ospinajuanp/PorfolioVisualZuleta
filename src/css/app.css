@@ -248,4 +248,20 @@ header {
   background: #815936;
 }
 
+.container__redes {
+  width: 80vw;
+  min-width: 30rem;
+  max-width: 150rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+.container__redes a i:hover {
+  font-size: 8rem;
+}
+
 /*# sourceMappingURL=app.css.map */
