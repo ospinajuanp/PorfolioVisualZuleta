@@ -294,6 +294,23 @@ header{
 
         i:hover{
             font-size: 8rem;
+            margin-bottom: 0;
         }
     }
+}
+.fa-facebook{
+    transition: font-size 1s ease;
+    color: #fff;
+}
+.fa-instagram{
+    transition: font-size 1s ease;
+    color: #fff;
+}
+.fa-facebook:hover{
+    
+    color: #3f729b;
+}
+.fa-instagram:hover{
+    
+    color: #833AB4;
 }
